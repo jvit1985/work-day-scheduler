@@ -32,8 +32,12 @@ body {
   
   .row {
     white-space: pre-wrap;
-    height: 80px;
     border-top: 1px solid white;;
+  }
+
+  .col-2 {
+      border-top: 1px solid gray;
+      border-bottom: 1px solid gray;
   }
   
   .hour {
