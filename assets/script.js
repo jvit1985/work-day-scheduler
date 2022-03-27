@@ -6,7 +6,6 @@ document.getElementById("currentDay").innerHTML = rightNow + " " + currentDay;
 //variable to hold current time
 var currentTime = dayjs().hour();
 
-$(document).ready(function () {
 //click listener for save button
 $(".btn").on("click", function() {
      console.log(this);
@@ -47,4 +46,4 @@ var checkTime = function () {
 //call checkTime() function
 checkTime();
 
-});
+
