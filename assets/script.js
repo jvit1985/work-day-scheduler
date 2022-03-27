@@ -15,7 +15,7 @@ var fivePm = dayjs().hour("17");
 
 //variable to hold current time
 var currentTime = dayjs().hour();
-console.log(currentTime);
+console.log(currentTime-9);
 
 //variable to hold created tasks
 var tasks = {};
@@ -36,11 +36,11 @@ function saveTasks() {
 
 //function to check current time vs work day scheduler time and add class if current, future, or past
 var checkTime = function() {
-    if (dayjs().isAfter(threePm.$H)) {
+    if (currentTime - 16 > 0) {
         $(".form-control").addClass("alert alert-secondary");
     }
-    else if (dayjs().isSame(threePm.$H)) {
-        $(".form-control").addClass("alert alert-primary");
+    else if (currentTime - 16 === 0) {
+        $(".form-control").addClass("alert alert-danger");
     }
     else {
         $(".form-control").addClass("alert alert-success");
