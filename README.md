@@ -17,3 +17,9 @@ WHEN I click the save button for that time block
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
+
+Deployed URL: 
+
+Screenshot:
+
+![screencapture-file-C-Users-jvit1-Desktop-projects-work-day-scheduler-index-html-2022-03-27-17_33_16](https://user-images.githubusercontent.com/54601156/160303940-a98f5c02-7b00-4af5-bafd-9df7f48ba43e.jpg)
