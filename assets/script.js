@@ -11,7 +11,7 @@ $(document).ready(function () {
 $(".btn").on("click", function() {
      console.log(this);
      var text = $(this).siblings(".description").val();
-     var time = $(this).parent().attr(".time-block");
+     var time = $(this).parent().attr("id");
 
      localStorage.setItem(time, text);
 });
