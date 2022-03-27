@@ -1,7 +1,6 @@
 //to display date on jumbotron
-var rightNow = moment().format('dddd');
-var currentDay = moment().format('MMMM Do YYYY');
-document.getElementById("currentDay").innerHTML = rightNow + " " + currentDay;
+var rightNow = dayjs().format("dddd MMMM DD YYYY");
+document.getElementById("currentDay").innerHTML = rightNow;
 
 //variable to hold current time
 var currentTime = dayjs().hour();
