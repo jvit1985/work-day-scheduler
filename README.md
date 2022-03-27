@@ -18,7 +18,7 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-Deployed URL: 
+Deployed URL: https://jvit1985.github.io/work-day-scheduler/
 
 Screenshot:
 
